@@ -1,0 +1,19 @@
+{
+  "name": "be.maxpft.name",
+  "version": "0.0.1",
+  "displayName": "Name",
+  "description": "Plugin",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "unity"
+  ],
+  "author": {
+    "name": "Max Pft",
+    "email": "puffetmaximilien21@gmail.com",
+    "url": "https://github.com/Raftak14"
+  }
+}

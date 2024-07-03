@@ -1,0 +1,94 @@
+{
+    "name": "InputAxisController",
+    "maps": [
+        {
+            "name": "Input Axis Controller",
+            "id": "11b57576-7372-4aae-b53e-db189d771fe6",
+            "actions": [
+                {
+                    "name": "Move Forward / Backward",
+                    "type": "Value",
+                    "id": "c016aa9e-4722-474d-9d61-55e34ed22c47",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Left / Right",
+                    "type": "Value",
+                    "id": "39e1aaf3-a3c7-449e-bedf-66c04c387810",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate Left / Right",
+                    "type": "Value",
+                    "id": "90ce8e02-fac0-4597-8c2f-928e20e4fa29",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Up / Down",
+                    "type": "Value",
+                    "id": "37b7f4eb-1441-4051-99fc-0be68189aea7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f379a3f1-0b2e-469c-b221-de1d8ccaeb38",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Forward / Backward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ea458f4-e8b2-430b-b898-b6d08c5ad39d",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left / Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b739f9c-e910-403c-9051-21e689acbc47",
+                    "path": "<Gamepad>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Left / Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7416d414-c55a-4952-819a-b9b92d9e3834",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Up / Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
