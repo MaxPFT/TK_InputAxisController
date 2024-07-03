@@ -1,7 +1,7 @@
 {
-  "name": "be.maxpft.name",
+  "name": "be.maxpft.inputaxiscontroller",
   "version": "0.0.1",
-  "displayName": "Name",
+  "displayName": "Input System Controller",
   "description": "Plugin",
   "unity": "2019.1",
   "unityRelease": "0b5",

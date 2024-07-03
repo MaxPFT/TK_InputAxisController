@@ -14,7 +14,7 @@ public class InputAxisController : MonoBehaviour
         public string m_description = "Quelque chose attend un nom ...";
         public InputActionReference m_observe;
         public float m_value;
-        public UnityEvent m_change;
+        public UnityEvent<float> m_change;
 
         public void StartListening()
         {
@@ -22,12 +22,12 @@ public class InputAxisController : MonoBehaviour
             m_observe.action.performed += (e) =>
             {
                 m_value = e.ReadValue<float>();
-                m_change.Invoke();
+                m_change.Invoke(m_value);
             };
             m_observe.action.canceled += (e) =>
             {
                 m_value = e.ReadValue<float>();
-                m_change.Invoke();
+                m_change.Invoke(m_value);
             };
         }
         
@@ -37,12 +37,12 @@ public class InputAxisController : MonoBehaviour
             m_observe.action.performed -= (e) =>
             {
                 m_value = e.ReadValue<float>();
-                m_change.Invoke();
+                m_change.Invoke(m_value);
             };
             m_observe.action.canceled -= (e) =>
             {
                 m_value = e.ReadValue<float>();
-                m_change.Invoke();
+                m_change.Invoke(m_value);
             };
         }
 
